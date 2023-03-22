@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'ethnocentric' ;
+    src: url(ethnocentric\ rg.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background: rgb(44, 0, 0);
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 0px 5%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.row1{
+    display:flex;
+    align-items: center;
+    align-content: center;
+}
+.rightside {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
+    width:50%;
+background-color: aqua;
+}
+.leftside{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    width:50%;
+    background-color: rgb(89, 0, 255);
+}
+.row2{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    height: 50vh;
+    width:100%;
+    background-color: rgb(0, 255, 76);
+}
+
